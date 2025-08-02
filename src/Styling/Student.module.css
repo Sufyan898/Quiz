@@ -1,0 +1,54 @@
+/* Styling/StudentForm.module.css */
+
+.bgContainer {
+  background-color: #4b2e83; 
+  background: linear-gradient(180deg, #7b2cbf, #5a189a);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  font-weight: 700;
+  color: #6a11cb;
+}
+
+.input {
+  border-radius: 0.5rem;
+  padding: 0.6rem 1rem;
+}
+
+.submitBtn {
+  background-color: #6a11cb;
+  color: white;
+  font-weight: 600;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.submitBtn:hover {
+  background-color: #571fbd;
+  color: white;
+}
+
+.backBtn {
+  border: 1px solid #dc3545;
+  color: #dc3545;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.backBtn:hover {
+  background-color: #dc3545;
+  color: white;
+}

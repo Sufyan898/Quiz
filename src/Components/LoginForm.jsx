@@ -115,7 +115,7 @@ function LoginForm() {
             Login
           </button>
           <Link to="/" className="btn btn-outline-success w-100 mt-2">
-            Back
+            Back to home
           </Link>
         </form>
       </div>

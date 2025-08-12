@@ -101,8 +101,7 @@ function LoginForm() {
               className="form-select" 
               value={selectedSubject} 
               onChange={(e) => setSelectedSubject(e.target.value)} 
-              required
-            >
+              required>
               <option value="">Select Subject</option>
               <option value="MongoDB">MongoDB</option>
               <option value="ExpressJS">Express</option>
@@ -116,7 +115,7 @@ function LoginForm() {
             Login
           </button>
           <Link to="/" className="btn btn-outline-success w-100 mt-2">
-            Back to Home
+            Back
           </Link>
         </form>
       </div>

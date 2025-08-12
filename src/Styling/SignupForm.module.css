@@ -1,0 +1,64 @@
+.bg {
+  min-height: 100vh;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  padding: 30px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.inputGroup {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 18px;
+  /* color: #f0f9f5; */
+}
+
+.inputGroup input,
+.inputGroup select {
+  background: transparent;
+  border: none;
+  outline: none;
+  /* color: #f0f9f5; */
+  width: 100%;
+}
+
+.inputGroup input::placeholder {
+  color: black;
+}
+
+/* Bootstrap select overrides if used */
+select.form-select {
+  color: black !important;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px; 
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+
+.loginBtn {
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}

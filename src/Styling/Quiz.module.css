@@ -1,0 +1,77 @@
+.quizApp {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  border-radius: 10px;
+
+  background-color: #2e8b57; /* Sea Green */
+  color: #f0f9f5; /* Light, soft text for contrast */
+  box-shadow: 0 0 15px rgba(46, 139, 87, 0.5);
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #3cb371; /* Medium Sea Green */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover:not(:disabled) {
+  background-color: #2e8b57; /* Darker Sea Green on hover */
+}
+
+.button:disabled {
+  background-color: #a8d5ba; /* Light sea green disabled */
+  cursor: not-allowed;
+}
+
+.restartButton {
+  background-color: #20b2aa; /* Light Sea Green */
+}
+
+.restartButton:hover {
+  background-color: #178f7f;
+}
+
+.option {
+  margin: 10px 0;
+  padding: 10px;
+  background: #3cb371;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.option:hover {
+  background: #2e8b57; 
+}
+
+.option input[type="radio"] {
+  margin-right: 12px;
+}
+
+.reviewQuestion {
+  background-color: #e0f2f1; /* light minty sea-green shade for good contrast */
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  color: #004d40; /* dark teal for text */
+  border: 1px solid #a7d7c5; /* subtle border for neatness */
+}
+
+.reviewQuestion p {
+  margin: 4px 0;
+  font-size: 15px;
+}
+
+/* Correct answer highlight */
+.correctAnswer {
+  color: #1b5e20; /* dark green for correct answer */
+  font-weight: 600;
+}
